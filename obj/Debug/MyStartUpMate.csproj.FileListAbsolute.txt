@@ -1,0 +1,123 @@
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\csc.exe
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\vbc.exe
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\VBCSCompiler.exe
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\MyStartUpMate.dll.config
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\MyStartUpMate.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\MyStartUpMate.pdb
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Antlr3.Runtime.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\EntityFramework.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\EntityFramework.SqlServer.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Newtonsoft.Json.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Owin.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Helpers.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Mvc.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Optimization.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Razor.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Razor.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\WebGrease.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Helpers.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Mvc.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Optimization.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.Razor.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Razor.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Antlr3.Runtime.pdb
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Newtonsoft.Json.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\EntityFramework.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\EntityFramework.SqlServer.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\obj\Debug\MyStartUpMate.dll
+C:\Users\gaurav\Documents\Visual Studio 2015\Projects\MyStartUpMate\MyStartUpMate\obj\Debug\MyStartUpMate.pdb
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\MyStartUpMate.dll.config
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\MyStartUpMate.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\MyStartUpMate.pdb
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Antlr3.Runtime.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\EntityFramework.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\EntityFramework.SqlServer.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Google.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Newtonsoft.Json.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Owin.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Helpers.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Mvc.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Optimization.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Razor.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Deployment.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Razor.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\WebGrease.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Helpers.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Mvc.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Optimization.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.Razor.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Deployment.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\System.Web.WebPages.Razor.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Antlr3.Runtime.pdb
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Newtonsoft.Json.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\EntityFramework.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\EntityFramework.SqlServer.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Google.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\obj\Debug\MyStartUpMate.dll
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\obj\Debug\MyStartUpMate.pdb
+D:\Project\MyProject\MyStartUpMate\MyStartUpMate\obj\Debug\MyStartUpMate.csprojResolveAssemblyReference.cache
