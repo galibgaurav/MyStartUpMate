@@ -22,6 +22,9 @@
     background: linear-gradient(center, #fff 50%, #fff 50%);*/
 }
 
+.glyphicon-user{
+    font-size:20px;
+}
 .banner-text {
    
     vertical-align: middle;
@@ -193,41 +196,11 @@
     height: auto !important;
     font-family: 'Pacifico', cursive;
     color: #fff !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     /*margin: 10px 10px 10px 10px;*/
 }
 
-.navstyle li a {
-    padding: 28px 10px !important;
-    color: #fff;
-    font-family: "Source Sans Pro",sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
 
-.navstyle li btn[btnatt=headerBtn] {
-    height: 30px;
-    color: #3EC9C3; 
-    background-color:white;  
-    border-color:white;
-    font-family: "Source Sans Pro",sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-left:10px;
-    margin-top: 15px;
-}
-
-.navstyle li a:hover, .navstyle li a:focus, .navstyle li a.active {
-    background-color: #33a29d !important;
-    color: #fff;
-}
-
-.navbar-right {
-    float: right !important;
-    margin-right: 0px !important;
-}
 
 
 /*------------------------------------------/
@@ -900,6 +873,29 @@ figure.effect-Beauty {
 /*-webkit-background-size: 100% auto;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;*/
- background-size: 100% auto;
- 
+
 }
+/*.bgImage {
+    background: url(images/bgImage.jpeg) no-repeat;
+}*/
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+
+
+#programe.noIE.bgcolor {
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+}
+#programe.noIE {
+    opacity: 0.2;
+}
+#programe {
+    background-color: #fbdc50;
+    margin-top: 167px;
+}
+

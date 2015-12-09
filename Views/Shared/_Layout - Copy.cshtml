@@ -10,7 +10,7 @@
     <link href="~/Content/font1.css" rel='stylesheet' type='text/css'>
     <link href="~/Content/font2.css" rel='stylesheet' type='text/css'>
     <link href="~/Content/font3.css" rel='stylesheet' type='text/css'>
-    <link href="~/Content/bootstrap-theme.css"  rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" type="text/css" />
     @*<link rel="stylesheet" href="~/Content/bootstrap-multiselect.css" type="text/css" />*@
     @*<link rel="stylesheet" href="~/Content/AdvancesdSearch.css" type="text/css" />*@
     <script type="text/javascript">
@@ -41,36 +41,82 @@
     </script>
 </head>
 <body>
-    <div class="navbar menubar" id="menu">
-        <div class="container">
-            @*<div class="col-md-4 col-sm-4 col-xs-4 navbar-header">
-                <a class="navbar-brand logo" href="#">MyStartUpMate</a>
-            </div>*@
-            @*<div class="navbar-header">
-                <a class="navbar-brand logo" href="#">MyStartUpMate</a>
-            </div>*@
-            <div class="col-md-3 col-sm-3 col-xs-3"><a class=" navbar-brand logo" href="#">MyStartUpMate</a></div>
-            <div class="col-md-9 col-sm-9 col-xs-9">
-                <nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
-                    <ul class="nav navbar-nav navbar-right navstyle ">
-                        @*<li><a href="#firstpage" class="page-scroll active"><strong>Home</strong></a></li>*@
-                        <li><a href="#firstpage" class="page-scroll"><strong>Home</strong></a></li>
-                        <li><a href="#firstpage" class="page-scroll"><strong>About</strong></a></li>
-                        <li><a href="#features" class="page-scroll"><strong>StartUp News</strong></a></li>
-                        <!--<li><a href="#gallery" class="page-scroll">c</a></li>-->
-                        @*<li><a href="#about" class="page-scroll"><strong>StartUp News</strong></a></li>*@
-                        <li><a href="#testimonials" class="page-scroll"><strong>Blogs</strong></a></li>
-                        <li><a href="#contact" class="page-scroll"><strong>Contact</strong></a></li>
-                        <li><btn class="btn pull-right" btnatt="headerBtn"> <i class="glyphicon glyphicon-user"></i>Sign In</btn></li>
-                        <li><btn class="btn pull-right" btnatt="headerBtn"><i class="glyphicon glyphicon-plus"></i>Sign Up</btn></li>
-                    </ul>
+    <div class="container" style="width:100%;">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="#">MyStartUpMate</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#firstpage" class="page-scroll">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#firstpage" class="page-scroll">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Startup<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">News</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Events</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Stories</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Hot Areas</a></li>
+                            </ul>
+                        </li>
+                        @*<li><a href="#firstpage" class="page-scroll">Contact</a></li>
+                        <li><a href="#firstpage" class="page-scroll">Subscribe</a></li>*@
 
-                </nav>
-            </div>
-            </div>
+                        <li class="socialli"><a class="sociallia" href="#"><i class="fa fa-twitter-square"></i></a></li>
+                        <li class="socialli"><a class="sociallia" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search your mate">
+                        </div>
+                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                     
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user fa-2x" style="color:blue;"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">@*<span class="glyphicon glyphicon-log-in" ></span>*@Login</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">@*<span class="glyphicon  glyphicon-log-out"></span>*@Profile</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">@*<span class="glyphicon  glyphicon-log-out"></span>*@Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    @*<ul class="nav pull-right">
+                            <li class="dropdown" id="menuLogin">
+                                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Login</a>
+                                <div class="dropdown-menu" style="padding:17px;">
+                                    <form class="form" id="formLogin">
+                                        <input name="username" id="username" type="text" placeholder="Username">
+                                        <input name="password" id="password" type="password" placeholder="Password"><br>
+                                        <button type="button" id="btnLogin" class="btn">Login</button>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>*@
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
     </div>
 
-    <div class="container dynamicTile" style="margin-top:20px;padding-bottom:50px" id="firstpage">
+    <div class="container bgImage" style="margin-top:20px;padding-bottom:50px" id="firstpage">
+        @*<div class="container dynamicTile" style="margin-top:20px;padding-bottom:50px" id="firstpage">*@
         <div class="row " style="display:none">
             <div class="col-sm-2 col-xs-4">
                 <div id="tile1" class="tile">
@@ -199,13 +245,12 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="max-height:320px">
-            <div class=" fiestpageContainer banner">
+        <div class="row">
+            <div class="fiestpageContainer">
                 <div class="text-center">
                     <!--<div id="bannertext">-->
                     <div>
                         <h1 class="hostyle" id="heads">Let's Find Another Me</h1>
-                        @*<p class="pstyle">Let's Find Another Me</p>*@
                         <a href="#searchMate" class="page-scroll arrow"><i class="fa fa-angle-down fa"></i></a>
                     </div>
                 </div>
@@ -376,7 +421,7 @@
             </div>
         </div>
     </div>
-   
+
     @*@RenderBody()*@
     <div class="address" id="contact">
         <div class="container">
@@ -398,7 +443,7 @@
             </div>
         </div>
     </div>
-   
+
     <footer class="foot">
 
         <div class="container">
@@ -406,34 +451,34 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h4 class="foot-logo">MyStartUpMate</h4>
                 </div>
-               <!-- <div class="navbar navbar-default ">-->
-                    <div class=" subscribe-social">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8 col-sm-12 col-xs-12">
-                                    <div class="subscibe">
-                                        <form role="form">
-                                            <div class="col-md-8 col-sm-10 col-xs-12">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" id="email" placeholder="Enter Your Email address">
-                                                </div>
+                <!-- <div class="navbar navbar-default ">-->
+                <div class=" subscribe-social">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12 col-xs-12">
+                                <div class="subscibe">
+                                    <form role="form">
+                                        <div class="col-md-8 col-sm-10 col-xs-12">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" placeholder="Enter Your Email address">
                                             </div>
-                                            <div class="col-md-4 col-sm-2 col-xs-12 centertext">
-                                                <button type="submit" class="btn btn-or">Subscibe</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-12 col-xs-12 text-center">
-                                    <ul class="social">
-                                        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    </ul>
+                                        </div>
+                                        <div class="col-md-4 col-sm-2 col-xs-12 centertext">
+                                            <button type="submit" class="btn btn-or">Subscibe</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
+                    </div>
                     @*</div>*@
 
                 </div>

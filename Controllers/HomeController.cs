@@ -26,5 +26,10 @@ namespace MyStartUpMate.Controllers
 
             return View();
         }
+        public ActionResult StartUpMate()
+        {
+            return View();
+        }
+
     }
 }
