@@ -187,6 +187,11 @@
     <Content Include="Content\font1.css" />
     <Content Include="Content\font2.css" />
     <Content Include="Content\font3.css" />
+    <Content Include="Content\jquery.fileupload-noscript.css" />
+    <Content Include="Content\jquery.fileupload-ui-noscript.css" />
+    <Content Include="Content\jquery.fileupload-ui.css" />
+    <Content Include="Content\jquery.fileupload.css" />
+    <Content Include="Content\scrolling-nav.js" />
     <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -198,6 +203,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Icon.png" />
     <Content Include="Scripts\bootstrap-multiselect.js" />
+    <Content Include="Scripts\bootstrap-select.js" />
     <Content Include="Scripts\bootstrap-treeview.js" />
     <Content Include="Scripts\bootstrap-treeview.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -257,9 +263,11 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery-ui-1.10.4.min.js" />
     <Content Include="Scripts\jquery.countTo.js" />
+    <Content Include="Scripts\jquery.easing.min.js" />
     <Content Include="Scripts\jquery.easings.min.js" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery.mixitup.js" />
+    <Content Include="Scripts\jquery.placepicker.min.js" />
     <Content Include="Scripts\jquery.quovolver.js" />
     <Content Include="Scripts\jquery.sticky.js" />
     <Content Include="Scripts\jquery.validate.js" />
@@ -273,7 +281,10 @@
     <Content Include="Scripts\require.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\scrolling-nav.js" />
     <Content Include="Scripts\startupmate.main.js" />
+    <Content Include="Scripts\StartupmateScripts\firstPage.js" />
+    <Content Include="Scripts\StartupmateScripts\SearchAtFrontPage.js" />
     <Content Include="Scripts\typed.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config">
@@ -298,7 +309,6 @@
     <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
     <Content Include="Views\Account\ForgotPassword.cshtml" />
     <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
@@ -313,11 +323,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\StartUpMate.cshtml" />
+    <Content Include="Views\Login\LoginForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\images\" />
-    <Folder Include="Scripts\StartupmateScripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

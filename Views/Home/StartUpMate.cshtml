@@ -1,74 +1,294 @@
 ﻿
 @{
-ViewBag.Title = "StartUpMate";
-Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "ParkingArea";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@*<div class="container bgImage" style="margin-top:20px;padding-bottom:50px" id="firstpage">
-    </div>*@
+@*<script src="~/Scripts/jquery.placepicker.min.js" type="text/javascript"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places">
+</script>
+<script>
 
-    @*<form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search your mate">
+    $(document).ready(function () {
+
+        // Basic usage
+        $(".placepicker").placepicker();
+
+        // Advanced usage
+        $("#advanced-placepicker").each(function () {
+            var target = this;
+            var $collapse = $(this).parents('.form-group').next('.collapse');
+            var $map = $collapse.find('.another-map-class');
+
+            var placepicker = $(this).placepicker({
+                map: $map.get(0),
+                placeChanged: function (place) {
+                    console.log("place changed: ", place.formatted_address, this.getLocation());
+                }
+            }).data('placepicker');
+        });
+
+    }); // END document.ready
+
+    var showMoreRentArea = function (elementID) {
+        if ($('#' + elementID).is(':visible')) {
+            $('#' + elementID).css('display', 'none');
+            $("#rentarea").height('250');
+            $('#showMoreButton').html('Show More...');
+        }
+        else {
+            $('#' + elementID).css('display', 'block');
+            $("#rentarea").height('500');
+            $('#showMoreButton').html('Show Less...');
+        }
+    }
+</script>
+
+<section id="findarea" class="noIE bgcolor" style="height:250px">
+    <br />
+    <br />
+    <br /><br />
+    <div class="col-sm-offset-2">
+        <div class="row form-group">
+
+            <div class="col-xs-2">
+                <select class="form-control" id="sel2" name="Place" required="">
+                    <option>Bangalore</option>
+                    <option>Chennai</option>
+                    <option>Delhi</option>
+                    <option>Patna</option>
+                </select>
             </div>
-            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-        </form>*@
-@*<div style="background-image:url()"></div>*@
-@*<div class="container bgImage" style="margin-top:20px;padding-bottom:50px" id="firstpage"></div>*@
-
-@*<section id="programe" class="noIE bgcolor">
-    
-</section>*@
-<script src="~/Scripts/StartupmateScripts/SearchAtFrontPage.js" type="text/javascript"></script>
-@*<div class="row"> 
-    <div class="sp">
-        <select id="professionLst" multiple="multiple">
-            <option value="cheese">Cheese</option>
-            <option value="tomatoes">Tomatoes</option>
-            <option value="mozarella">Mozzarella</option>
-            <option value="mushrooms">Mushrooms</option>
-            <option value="pepperoni">Pepperoni</option>
-            <option value="onions">Onions</option>
-        </select>
-    </div>
-</div>*@
-
-<h1>wdd</h1>
-<h1>wdd</h1>
-<h1>wdd</h1>
-<h1>wdd</h1>
-<h1>wdd</h1>
-<h1>wdd</h1>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-4">
-            <select id="professionLst1" multiple="multiple">
-                <option value="cheese">Cheese</option>
-                <option value="tomatoes">Tomatoes</option>
-                <option value="mozarella">Mozzarella</option>
-                <option value="mushrooms">Mushrooms</option>
-                <option value="pepperoni">Pepperoni</option>
-                <option value="onions">Onions</option>
-            </select>
-         </div>
-        <div class="col-xs-4">
-            <select id="professionLst2" multiple="multiple">
-                <option value="cheese">Cheese</option>
-                <option value="tomatoes">Tomatoes</option>
-                <option value="mozarella">Mozzarella</option>
-                <option value="mushrooms">Mushrooms</option>
-                <option value="pepperoni">Pepperoni</option>
-                <option value="onions">Onions</option>
-            </select>        </div>
-        <div class="col-xs-4">
-            <select id="professionLst3" multiple="multiple">
-                <option value="cheese">Cheese</option>
-                <option value="tomatoes">Tomatoes</option>
-                <option value="mozarella">Mozzarella</option>
-                <option value="mushrooms">Mushrooms</option>
-                <option value="pepperoni">Pepperoni</option>
-                <option value="onions">Onions</option>
-            </select>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <input class="placepicker form-control" placeholder="Enter parking area location" />
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <select class="form-control" id="sel3" name="Paking For" required="">
+                    <optgroup label="Car">
+                        <option>Small car</option>
+                        <option>Medium car</option>
+                        <option>SUV</option>
+                    </optgroup>
+                    <optgroup label="Truck">
+                        <option>LCV</option>
+                        <option>HCV</option>
+                    </optgroup>
+                    <optgroup label="Bike">
+                        <option>Commuter Bike</option>
+                        <option>Sports Bike</option>
+                        <option>Scooters</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="col-xs-1">
+              
+                <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-search"></span> Search</button>
+            </div>
         </div>
     </div>
+</section>
+<section id="rentarea" class="noIE bgcolor" style="height:250px">
+    <br />
+    <br />
+    <br /><br />
+    <div class="col-sm-offset-2">
+        <div class="row form-group">
+            <div class="col-xs-4">
+                <input type="email" class="form-control" name="email" placeholder="Email/Mobile Number" required="">
+            </div>
+            <div class="col-xs-3">
+                <input type="password" class="form-control" name="Password2" placeholder="Password" required="">
+            </div>
+            <div class="col-xs-1">
+               
+                <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-check"></span> Verify</button>
+            </div>
+
+        </div>
+        <div class="row form-group">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <input class="placepicker form-control" placeholder="Enter parking area location" disabled />
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <select class="form-control" id="sel2" name="Place" required="" disabled>
+                    <option>Bangalore</option>
+                    <option>Chennai</option>
+                    <option>Delhi</option>
+                    <option>Patna</option>
+                </select>
+            </div>
+
+            <div class="col-xs-2">
+                <select class="form-control" id="sel3" name="Paking For" required="" disabled>
+                    <optgroup label="Car">
+                        <option>Small car</option>
+                        <option>Medium car</option>
+                        <option>SUV</option>
+                    </optgroup>
+                    <optgroup label="Truck">
+                        <option>LCV</option>
+                        <option>HCV</option>
+                    </optgroup>
+                    <optgroup label="Bike">
+                        <option>Commuter Bike</option>
+                        <option>Sports Bike</option>
+                        <option>Scooters</option>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-xs-4">
+                <p><a onclick="showMoreRentArea('moreRentArea')" style="color:white" id="showMoreButton">Show More...</a></p>
+            </div>
+        </div>
+
+        <div class="row form-group" id="moreRentArea" disabled style="display:none">
+            <div class="col-xs-12">
+                <form id="fileupload" action="//jquery-file-upload.appspot.com/" method="POST" enctype="multipart/form-data">
+                    <!-- Redirect browsers with JavaScript disabled to the origin page -->
+                    <noscript><input type="hidden" name="redirect" value="https://blueimp.github.io/jQuery-File-Upload/"></noscript>
+                    <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                    <div class="row fileupload-buttonbar">
+                        <div class="col-lg-7">
+                            <!-- The fileinput-button span is used to style the file input field as button -->
+                            <span class="btn btn-success fileinput-button">
+                                <i class="glyphicon glyphicon-plus"></i>
+                                <span>Add files...</span>
+                                <input type="file" name="files[]" multiple>
+                            </span>
+                            <button type="submit" class="btn btn-primary start">
+                                <i class="glyphicon glyphicon-upload"></i>
+                                <span>Start upload</span>
+                            </button>
+                            <button type="reset" class="btn btn-warning cancel">
+                                <i class="glyphicon glyphicon-ban-circle"></i>
+                                <span>Cancel upload</span>
+                            </button>
+                            <button type="button" class="btn btn-danger delete">
+                                <i class="glyphicon glyphicon-trash"></i>
+                                <span>Delete</span>
+                            </button>
+                            <input type="checkbox" class="toggle">
+                            <!-- The global file processing state -->
+                            <span class="fileupload-process"></span>
+                        </div>
+                        <!-- The global progress state -->
+                        <div class="col-lg-5 fileupload-progress fade">
+                            <!-- The global progress bar -->
+                            <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-success" style="width:0%;"></div>
+                            </div>
+                            <!-- The extended global progress state -->
+                            <div class="progress-extended">&nbsp;</div>
+                        </div>
+                    </div>
+                    <!-- The table listing the files available for upload/download -->
+                    <table role="presentation" class="table table-striped"><tbody class="files"></tbody></table>
+                </form>
+
+            </div>
+            <div class="col-xs-8">
+                <textarea class="form-control" rows="5" id="comment" placeholder="Please mention terms and conditions along with rent or lease charge..." required></textarea>
+
+                <br>
+                <button class="btn btn-default pull-right" row="1" type="submit">Submit</button>
+            </div>
+        </div>
+
     </div>
+
+</section>
+<section id="myarea" class="noIE bgcolor" style="height:250px">
+    <br />
+    <br />
+    <br /><br />
+    <div class="col-sm-offset-2">
+        <div class="row form-group">
+            <div class="col-xs-2">
+
+                <select class="form-control" id="sel1" autofocus required="">
+                    <option>Rentee</option>
+                    <option>Renter</option>
+                </select>
+            </div>
+            <div class="col-xs-4">
+                <input type="text" class="form-control" id="email1" placeholder="Email / Mobile Number" required="">
+            </div>
+            <div class="col-xs-3">
+                <input type="password" class="form-control" id="password1" placeholder="Password" required="">
+            </div>
+            <div class="col-xs-1">
+                <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-search"></span> Search</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="noIE bgcolor" id="contactus">
+    <div class="row">
+
+        <h1 class="text-center">Write Us</h1>
+
+        <div id="map-canvas"></div>
+
+        <div class="col-sm-offset-1 col-sm-8">
+
+            <div class="row form-group">
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required="">
+                </div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" id="middleName" name="firstName" placeholder="Middle Name" required="">
+                </div>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required="">
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-xs-5">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                </div>
+                <div class="col-xs-5">
+                    <input type="email" class="form-control" name="phone" placeholder="Phone" required="">
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-xs-10">
+                    <textarea class="form-control" rows="2" id="comment" placeholder="Please mention your query..." required></textarea>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-xs-10">
+                    <button class="btn btn-default pull-right">Contact Us</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-3 pull-right">
+
+            <address>
+                <strong>LivingSoftica</strong><br>
+
+                2nd Phase, JP Nagar<br>
+                P: 9902738900
+            </address>
+
+            <address>
+                <strong>Email Us</strong><br>
+                <a href="mailto:#" style="color:white">galibgaurav@parkingarea.in</a>
+            </address>
+        </div>
+
+    </div><!--/row-->
+
+</section>*@
+
+
 
