@@ -5,9 +5,11 @@ namespace MyStartUpMate
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    
 
     public partial class User
     {
+        //[PlaceHolder("FirstName")]
         [Display(Name = "First Name")]
         [Required(ErrorMessage ="Please Provide First Name",AllowEmptyStrings =false)]
         [StringLength(50)]
@@ -28,7 +30,7 @@ namespace MyStartUpMate
 
         [Required(ErrorMessage = "Please Provide Email Address", AllowEmptyStrings = false)]
         [StringLength(50)]
-        //[RegularExpression( @" ^ (? ("")("".+? (?< !\\)""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" + @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9][\-a-z0-9]{0,22}[a-z0-9]))$",ErrorMessage ="Please provide a valid email id")]
+        [RegularExpression(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z",ErrorMessage ="Please provide a valid email id")]
         public string Email { get; set; }
 
         [Required(ErrorMessage ="Please provide mobile number")]
