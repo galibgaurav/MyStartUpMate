@@ -1,0 +1,4 @@
+﻿var CallControllerGet = function () {
+    debugger;
+    
+}
